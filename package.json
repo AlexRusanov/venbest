@@ -1,0 +1,15 @@
+{
+  "name": "venbest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rusanov Alex",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.1.0",
+    "zeromq": "^5.1.0"
+  }
+}
