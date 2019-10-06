@@ -54,8 +54,6 @@ subSock.on("message", function(topic, message) {
             status:  "ok"
         };
 
-        console.log(authResponse);
-
         setInterval(sendAuthRes, 500);
     } else if (response.pwd === "" || response.email === "" || !response.pwd || !response.email){
         authResponse = {
